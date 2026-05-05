@@ -73,7 +73,7 @@ java -version   # Must show 11 or higher
 ### Step 1 — Clone
 
 ```bash
-https://github.com/Divyansh-Parihar/School-Management-System.git
+git clone https://github.com/Divyansh-Parihar/School-Management-System.git
 cd School-Management-System
 ```
 
