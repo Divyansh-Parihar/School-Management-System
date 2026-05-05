@@ -44,7 +44,7 @@ This project demonstrates practical Java skills: **OOP**, **Generics**, **Custom
 ## 🗂️ Project Structure
 
 ```
-Academica-Core/
+School-Management-System/
 ├── Person.java                  # Interface — base contract
 ├── Student.java                 # Student entity (grade, fee, attendance)
 ├── Teacher.java                 # Teacher entity (subject, salary, attendance)
@@ -73,8 +73,8 @@ java -version   # Must show 11 or higher
 ### Step 1 — Clone
 
 ```bash
-git clone https://github.com/your-username/academica-core.git
-cd academica-core
+https://github.com/Divyansh-Parihar/School-Management-System.git
+cd School-Management-System
 ```
 
 ### Step 2 — Compile
@@ -167,8 +167,3 @@ Data is stored as pipe-delimited (`|`) plain text:
 201|Mr. James Harris|Mathematics|55000.0|2026-05-01:P
 ```
 
----
-
-## 📜 License
-
-Open source under the [MIT License](LICENSE).
