@@ -1,0 +1,35 @@
+## System Requirements
+
+This project is a pure Java web application with NO external dependencies.
+
+### Required
+
+| Requirement     | Version  | Notes                                      |
+|-----------------|----------|--------------------------------------------|
+| Java JDK        | 11+      | Recommended: JDK 17 (LTS) or JDK 21 (LTS) |
+| Web Browser     | Any      | Chrome, Firefox, Edge — to access the UI  |
+
+### Check Your Java Version
+
+```bash
+java -version
+javac -version
+```
+
+### Download Java
+
+- Oracle JDK  : https://www.oracle.com/java/technologies/downloads/
+- OpenJDK     : https://adoptium.net/
+
+### No External Libraries
+
+All features use the Java Standard Library only:
+
+| Package                          | Used For                              |
+|----------------------------------|---------------------------------------|
+| com.sun.net.httpserver           | Built-in HTTP server (serves the app) |
+| java.util                        | Collections, Scanner, Streams         |
+| java.io                          | File I/O (PrintWriter, FileWriter)    |
+| java.time                        | LocalDate for attendance dates        |
+| java.net                         | URL decoding for HTTP request parsing |
+| java.util.function               | Function<> for generic parsing        |
